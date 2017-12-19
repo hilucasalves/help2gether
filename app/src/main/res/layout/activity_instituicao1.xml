@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_instituicao1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.matheusm.help2gether.Instituicao1Activity">
+
+    <TextView
+        android:text="Casa Dom Bosco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@mipmap/i1"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text="A Casa Dom Bosco é um serviço de acolhimento institucional para adolescentes em situação de violação de direitos cujo vínculo familiar e comunitário está rompido ou fragilizado. A unidade institucional é semelhante a uma residência para garantir a relação mais próxima com o ambiente familiar."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+    <TextView
+        android:text="Rua Antônio Francisco Lisboa, 1685\nItatiaia, Belo Horizonte\n(31)3476-3467"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="Voltar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        style="?android:textAppearanceSmall"
+        android:id="@+id/voltar"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

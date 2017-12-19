@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Help2Gether</string>
+
+    <string name="error_invalid_email">Este e-mail é inválido</string>
+    <string name="error_invalid_password">Esta senha é muito curta</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="error_field_required">Este campo é necessário</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing emailcompletions."</string>
+
+    <string name="site"><a href="http://help2gether.circusdigital.com.br" target="">Acesse nosso site</a></string>
+
+    <string-array name="cidade">
+        <item>Maceió</item>
+        <item>Macapá</item>
+        <item>Manaus</item>
+        <item>Salvador</item>
+        <item>Fortaleza</item>
+        <item>Vitória</item>
+        <item>Goiânia</item>
+        <item>São Luís</item>
+        <item>Cuiabá</item>
+        <item>Campo Grande</item>
+        <item>Belém</item>
+        <item>João Pessoa</item>
+        <item>Curitiba</item>
+        <item>Recife</item>
+        <item>Teresina</item>
+        <item>Natal</item>
+        <item>Porto Velho</item>
+        <item>Boa Vista</item>
+        <item>Florianópolis</item>
+        <item>Aracaju</item>
+        <item>Palmas</item>
+        <item>Rio Branco</item>
+        <item>Brasilia</item>
+        <item>Belo Horizonte</item>
+        <item>São Paulo</item>
+        <item>Rio de Janeiro</item>
+        <item>Espírito Santo</item>
+        <item>Porto Alegre</item>
+    </string-array>
+</resources>

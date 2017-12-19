@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_evento1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.matheusm.help2gether.Evento1Activity">
+
+    <TextView
+        android:text="Madrugada de Carinho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="A madrugada de carinho é um evento social realizado toda última sexta-feira do mês. Reunimos no local da instituição e vamos para o centro de Belo Horizonte para oferecermos assistência como alimentos e roupas para a população carente."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:text="30/12/2016\n23:00-03:30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText,SpUsage"
+        android:textColor="@color/colorPrimary" />
+    <TextView
+        android:text="Rua Violeta, 735\nPompéia, Belo Horizonte\n(31)99655-7858"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="HardcodedText,SpUsage" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:text="Paricipar"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            style="?android:textAppearanceSmall"
+            android:id="@+id/participa"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:text="Voltar"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            style="?android:textAppearanceSmall"
+            android:id="@+id/voltar"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</LinearLayout>

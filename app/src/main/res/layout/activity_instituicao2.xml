@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_instituicao2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.matheusm.help2gether.Instituicao2Activity">
+
+    <TextView
+        android:text="Ministério Edificando Vidas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@mipmap/i2"
+        android:layout_gravity="center"/>
+    <TextView
+        android:text="O MEV (Ministerio Edficando Vidas) é um trabalho desenvolvido por uma equipe de voluntários de várias regiões de Belo Horizonte, cujo objetivo é prestar assistência social à população carente."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+    <TextView
+        android:text="Rua Violeta, 735\nPompéia, Belo Horizonte\n(31)99655-7858"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+    <Button
+        android:text="Voltar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        style="?android:textAppearanceSmall"
+        android:id="@+id/voltar"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText" />
+</LinearLayout>

@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.matheusm.help2gether.LoginActivity">
+
+    <TextView
+        android:text="Perfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        tools:ignore="HardcodedText"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeActionId="@+id/nome"
+        android:inputType="text"
+        android:maxLines="1"
+        android:hint="Nome"
+        android:id="@+id/nome"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeActionId="@+id/telefone"
+        android:maxLines="1"
+        android:hint="Telefone"
+        android:inputType="phone"
+        tools:ignore="HardcodedText" />
+    <AutoCompleteTextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/cidade"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cidade"
+        android:inputType="text"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:imeActionId="@+id/email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:imeActionId="@+id/password"
+        android:inputType="textPassword"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:text="Interesses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText" />
+    <CheckBox
+        android:text="Doação de roupas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <CheckBox
+        android:text="Passeio com Animais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <CheckBox
+        android:text="Apoio a população de rua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/Salvar"
+        style="?android:textAppearanceSmall"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        tools:ignore="HardcodedText"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

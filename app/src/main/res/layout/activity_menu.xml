@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.matheusm.help2gether.MenuActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Editar Perfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        tools:ignore="HardcodedText" />
+    <ImageButton
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        app:srcCompat="@mipmap/iconperson"
+        android:id="@+id/buttonperfil"
+        tools:ignore="ContentDescription,UnusedAttribute" />
+
+    <TextView
+        android:text="Instituições Cadastradas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        app:srcCompat="@mipmap/iconhome"
+        android:id="@+id/buttoninstituicao"
+        tools:ignore="ContentDescription,UnusedAttribute" />
+
+    <TextView
+        android:text="Eventos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        tools:ignore="HardcodedText" />
+    <ImageButton
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        app:srcCompat="@mipmap/iconevento"
+        android:id="@+id/buttonevento"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:text="Avaliações"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        tools:ignore="HardcodedText" />
+    <ImageButton
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        app:srcCompat="@mipmap/iconranking"
+        android:id="@+id/buttonavaliacao"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:text="Fale Conosco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        tools:ignore="HardcodedText" />
+    <ImageButton
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        app:srcCompat="@mipmap/iconmessage"
+        android:id="@+id/buttonfaleconosco"
+        tools:ignore="ContentDescription" />
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fale_conosco"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.matheusm.help2gether.FaleConoscoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fale Conosco"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="normal|bold"
+        tools:ignore="HardcodedText,SpUsage" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Por ser a primeira solução da iniciativa Help2Gether, é fundamental a participação dos usuários. Faça sugestões para melhorarmos nosso aplicativo. A Help2Gether congratula-se com todos os nossos visitantes.\nVocê pode sugerir mudanças visuais e sobre navegabilidade, por exemplo. Participe!"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="textMultiLine"
+        android:id="@+id/faleconosco" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/salvar"
+            style="?android:textAppearanceSmall"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:id="@+id/voltar"
+            style="?android:textAppearanceSmall"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+</LinearLayout>
